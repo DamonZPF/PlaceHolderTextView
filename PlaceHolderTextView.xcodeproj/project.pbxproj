@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF4F22881BFDB6A200FA9170 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4F22871BFDB6A200FA9170 /* main.m */; };
+		AF4F228B1BFDB6A200FA9170 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4F228A1BFDB6A200FA9170 /* AppDelegate.m */; };
+		AF4F228E1BFDB6A200FA9170 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4F228D1BFDB6A200FA9170 /* ViewController.m */; };
+		AF4F22911BFDB6A200FA9170 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4F228F1BFDB6A200FA9170 /* Main.storyboard */; };
+		AF4F22931BFDB6A200FA9170 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4F22921BFDB6A200FA9170 /* Assets.xcassets */; };
+		AF4F22961BFDB6A200FA9170 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4F22941BFDB6A200FA9170 /* LaunchScreen.storyboard */; };
+		AF4F229F1BFDB7BD00FA9170 /* PlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4F229E1BFDB7BD00FA9170 /* PlaceholderTextView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF4F22831BFDB6A200FA9170 /* PlaceHolderTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaceHolderTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4F22871BFDB6A200FA9170 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF4F22891BFDB6A200FA9170 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF4F228A1BFDB6A200FA9170 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AF4F228C1BFDB6A200FA9170 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AF4F228D1BFDB6A200FA9170 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AF4F22901BFDB6A200FA9170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF4F22921BFDB6A200FA9170 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF4F22951BFDB6A200FA9170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF4F22971BFDB6A200FA9170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF4F229D1BFDB7BD00FA9170 /* PlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceholderTextView.h; sourceTree = "<group>"; };
+		AF4F229E1BFDB7BD00FA9170 /* PlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceholderTextView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF4F22801BFDB6A200FA9170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF4F227A1BFDB6A200FA9170 = {
+			isa = PBXGroup;
+			children = (
+				AF4F22851BFDB6A200FA9170 /* PlaceHolderTextView */,
+				AF4F22841BFDB6A200FA9170 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF4F22841BFDB6A200FA9170 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF4F22831BFDB6A200FA9170 /* PlaceHolderTextView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF4F22851BFDB6A200FA9170 /* PlaceHolderTextView */ = {
+			isa = PBXGroup;
+			children = (
+				AF4F22891BFDB6A200FA9170 /* AppDelegate.h */,
+				AF4F228A1BFDB6A200FA9170 /* AppDelegate.m */,
+				AF4F228C1BFDB6A200FA9170 /* ViewController.h */,
+				AF4F228D1BFDB6A200FA9170 /* ViewController.m */,
+				AF4F228F1BFDB6A200FA9170 /* Main.storyboard */,
+				AF4F22921BFDB6A200FA9170 /* Assets.xcassets */,
+				AF4F22941BFDB6A200FA9170 /* LaunchScreen.storyboard */,
+				AF4F22971BFDB6A200FA9170 /* Info.plist */,
+				AF4F22861BFDB6A200FA9170 /* Supporting Files */,
+				AF4F229D1BFDB7BD00FA9170 /* PlaceholderTextView.h */,
+				AF4F229E1BFDB7BD00FA9170 /* PlaceholderTextView.m */,
+			);
+			path = PlaceHolderTextView;
+			sourceTree = "<group>";
+		};
+		AF4F22861BFDB6A200FA9170 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF4F22871BFDB6A200FA9170 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF4F22821BFDB6A200FA9170 /* PlaceHolderTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF4F229A1BFDB6A200FA9170 /* Build configuration list for PBXNativeTarget "PlaceHolderTextView" */;
+			buildPhases = (
+				AF4F227F1BFDB6A200FA9170 /* Sources */,
+				AF4F22801BFDB6A200FA9170 /* Frameworks */,
+				AF4F22811BFDB6A200FA9170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlaceHolderTextView;
+			productName = PlaceHolderTextView;
+			productReference = AF4F22831BFDB6A200FA9170 /* PlaceHolderTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF4F227B1BFDB6A200FA9170 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = zpf;
+				TargetAttributes = {
+					AF4F22821BFDB6A200FA9170 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = AF4F227E1BFDB6A200FA9170 /* Build configuration list for PBXProject "PlaceHolderTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF4F227A1BFDB6A200FA9170;
+			productRefGroup = AF4F22841BFDB6A200FA9170 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF4F22821BFDB6A200FA9170 /* PlaceHolderTextView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF4F22811BFDB6A200FA9170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4F22961BFDB6A200FA9170 /* LaunchScreen.storyboard in Resources */,
+				AF4F22931BFDB6A200FA9170 /* Assets.xcassets in Resources */,
+				AF4F22911BFDB6A200FA9170 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF4F227F1BFDB6A200FA9170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4F228E1BFDB6A200FA9170 /* ViewController.m in Sources */,
+				AF4F228B1BFDB6A200FA9170 /* AppDelegate.m in Sources */,
+				AF4F22881BFDB6A200FA9170 /* main.m in Sources */,
+				AF4F229F1BFDB7BD00FA9170 /* PlaceholderTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF4F228F1BFDB6A200FA9170 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF4F22901BFDB6A200FA9170 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF4F22941BFDB6A200FA9170 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF4F22951BFDB6A200FA9170 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF4F22981BFDB6A200FA9170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AF4F22991BFDB6A200FA9170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF4F229B1BFDB6A200FA9170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlaceHolderTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zpf.PlaceHolderTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF4F229C1BFDB6A200FA9170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlaceHolderTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zpf.PlaceHolderTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF4F227E1BFDB6A200FA9170 /* Build configuration list for PBXProject "PlaceHolderTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4F22981BFDB6A200FA9170 /* Debug */,
+				AF4F22991BFDB6A200FA9170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF4F229A1BFDB6A200FA9170 /* Build configuration list for PBXNativeTarget "PlaceHolderTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4F229B1BFDB6A200FA9170 /* Debug */,
+				AF4F229C1BFDB6A200FA9170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF4F227B1BFDB6A200FA9170 /* Project object */;
+}
