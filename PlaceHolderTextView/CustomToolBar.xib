@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CustomToolBar">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gfi-7P-mtN">
+                    <rect key="frame" x="64" y="0.0" width="64" height="44"/>
+                    <state key="normal" image="compose_toolbar_picture"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9NX-JJ-Noh">
+                    <rect key="frame" x="128" y="0.0" width="64" height="44"/>
+                    <state key="normal" image="compose_mentionbutton_background"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VLC-7r-3xb">
+                    <rect key="frame" x="192" y="0.0" width="64" height="44"/>
+                    <state key="normal" image="compose_trendbutton_background"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wTi-8L-RTV">
+                    <rect key="frame" x="256" y="0.0" width="64" height="44"/>
+                    <state key="normal" image="compose_emoticonbutton_background"/>
+                    <state key="selected" image="compose_keyboardbutton_background"/>
+                    <connections>
+                        <action selector="clickButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="tQ4-78-Cfy"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eYs-Zk-bhM">
+                    <rect key="frame" x="0.0" y="0.0" width="64" height="44"/>
+                    <state key="normal" image="compose_camerabutton_background"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="9NX-JJ-Noh" firstAttribute="width" secondItem="eYs-Zk-bhM" secondAttribute="width" id="0KZ-n9-eQE"/>
+                <constraint firstItem="VLC-7r-3xb" firstAttribute="top" secondItem="eYs-Zk-bhM" secondAttribute="top" id="45L-TG-G23"/>
+                <constraint firstAttribute="trailing" secondItem="wTi-8L-RTV" secondAttribute="trailing" id="7eJ-Z4-eRg"/>
+                <constraint firstItem="9NX-JJ-Noh" firstAttribute="bottom" secondItem="eYs-Zk-bhM" secondAttribute="bottom" id="8Gh-Qa-WZR"/>
+                <constraint firstItem="wTi-8L-RTV" firstAttribute="bottom" secondItem="eYs-Zk-bhM" secondAttribute="bottom" id="B7X-my-B9J"/>
+                <constraint firstItem="wTi-8L-RTV" firstAttribute="leading" secondItem="VLC-7r-3xb" secondAttribute="trailing" id="CPK-nr-cJy"/>
+                <constraint firstItem="gfi-7P-mtN" firstAttribute="top" secondItem="eYs-Zk-bhM" secondAttribute="top" id="F2m-Rw-HXK"/>
+                <constraint firstAttribute="bottom" secondItem="eYs-Zk-bhM" secondAttribute="bottom" id="GrU-NW-Np4"/>
+                <constraint firstItem="wTi-8L-RTV" firstAttribute="width" secondItem="eYs-Zk-bhM" secondAttribute="width" id="KbF-qc-MQC"/>
+                <constraint firstItem="wTi-8L-RTV" firstAttribute="height" secondItem="eYs-Zk-bhM" secondAttribute="height" id="KvA-86-fe6"/>
+                <constraint firstItem="gfi-7P-mtN" firstAttribute="width" secondItem="eYs-Zk-bhM" secondAttribute="width" id="Lm2-zA-hiL"/>
+                <constraint firstItem="eYs-Zk-bhM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="NMA-aq-xDh"/>
+                <constraint firstItem="9NX-JJ-Noh" firstAttribute="height" secondItem="eYs-Zk-bhM" secondAttribute="height" id="Ok9-rz-2Dz"/>
+                <constraint firstItem="9NX-JJ-Noh" firstAttribute="top" secondItem="eYs-Zk-bhM" secondAttribute="top" id="Rdu-4d-I1L"/>
+                <constraint firstItem="gfi-7P-mtN" firstAttribute="height" secondItem="eYs-Zk-bhM" secondAttribute="height" id="Trp-ee-Zd1"/>
+                <constraint firstItem="VLC-7r-3xb" firstAttribute="bottom" secondItem="eYs-Zk-bhM" secondAttribute="bottom" id="VBY-Im-3xC"/>
+                <constraint firstItem="wTi-8L-RTV" firstAttribute="leading" secondItem="VLC-7r-3xb" secondAttribute="trailing" id="X9z-CA-t6O"/>
+                <constraint firstItem="gfi-7P-mtN" firstAttribute="leading" secondItem="eYs-Zk-bhM" secondAttribute="trailing" id="Xba-hd-4sQ"/>
+                <constraint firstItem="VLC-7r-3xb" firstAttribute="leading" secondItem="9NX-JJ-Noh" secondAttribute="trailing" id="dOS-qG-Pvz"/>
+                <constraint firstItem="gfi-7P-mtN" firstAttribute="bottom" secondItem="eYs-Zk-bhM" secondAttribute="bottom" id="e2y-yO-zQS"/>
+                <constraint firstItem="VLC-7r-3xb" firstAttribute="width" secondItem="eYs-Zk-bhM" secondAttribute="width" id="knO-m4-pVE"/>
+                <constraint firstItem="9NX-JJ-Noh" firstAttribute="leading" secondItem="gfi-7P-mtN" secondAttribute="trailing" id="mgh-tF-fiH"/>
+                <constraint firstItem="eYs-Zk-bhM" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="n3n-oW-vb3"/>
+                <constraint firstItem="VLC-7r-3xb" firstAttribute="leading" secondItem="9NX-JJ-Noh" secondAttribute="trailing" constant="44" id="qIx-pe-qR7"/>
+                <constraint firstItem="VLC-7r-3xb" firstAttribute="height" secondItem="eYs-Zk-bhM" secondAttribute="height" id="sM2-nV-fdp"/>
+                <constraint firstItem="wTi-8L-RTV" firstAttribute="top" secondItem="eYs-Zk-bhM" secondAttribute="top" id="ucX-qm-PdQ"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="qIx-pe-qR7"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="491" y="192"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="compose_camerabutton_background" width="24" height="24"/>
+        <image name="compose_emoticonbutton_background" width="24" height="24"/>
+        <image name="compose_keyboardbutton_background" width="24" height="24"/>
+        <image name="compose_mentionbutton_background" width="24" height="24"/>
+        <image name="compose_toolbar_picture" width="24" height="24"/>
+        <image name="compose_trendbutton_background" width="24" height="24"/>
+    </resources>
+</document>

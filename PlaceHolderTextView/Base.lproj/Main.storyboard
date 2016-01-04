@@ -17,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VPj-yg-VeQ" customClass="PlaceholderTextView" colorLabel="IBBuiltInLabel-Red">
-                                <rect key="frame" x="0.0" y="64" width="595" height="130"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VPj-yg-VeQ" customClass="PlaceholderTextView" colorLabel="IBBuiltInLabel-Red">
+                                <rect key="frame" x="0.0" y="64" width="595" height="536"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="130" id="BbC-Eb-YCr"/>
@@ -28,10 +28,19 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="placeHolderString" value="请输入文字"/>
                                 </userDefinedRuntimeAttributes>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="BbC-Eb-YCr"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="dgf-WN-Fn2"/>
+                                </connections>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="VPj-yg-VeQ" secondAttribute="bottom" id="5tb-RK-MHf"/>
                             <constraint firstItem="VPj-yg-VeQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="7P5-XZ-h9r"/>
                             <constraint firstItem="VPj-yg-VeQ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="GXU-rs-9yh"/>
                             <constraint firstAttribute="trailing" secondItem="VPj-yg-VeQ" secondAttribute="trailing" constant="5" id="aVT-MU-0EP"/>
@@ -46,10 +55,13 @@
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" id="pRI-m7-RuZ"/>
+                    <connections>
+                        <outlet property="textView" destination="VPj-yg-VeQ" id="VKO-3z-TtT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="795" y="387"/>
+            <point key="canvasLocation" x="81" y="533"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="zdA-te-4pg">
@@ -65,7 +77,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1BJ-is-cgn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="97" y="395"/>
+            <point key="canvasLocation" x="-599" y="546"/>
         </scene>
     </scenes>
 </document>

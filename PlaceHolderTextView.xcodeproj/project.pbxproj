@@ -14,6 +14,22 @@
 		AF4F22931BFDB6A200FA9170 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4F22921BFDB6A200FA9170 /* Assets.xcassets */; };
 		AF4F22961BFDB6A200FA9170 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4F22941BFDB6A200FA9170 /* LaunchScreen.storyboard */; };
 		AF4F229F1BFDB7BD00FA9170 /* PlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4F229E1BFDB7BD00FA9170 /* PlaceholderTextView.m */; };
+		AF7457721C06E94C00351848 /* EmotionPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7457711C06E94C00351848 /* EmotionPageView.m */; };
+		AF7457751C06F60D00351848 /* NSString+Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7457741C06F60D00351848 /* NSString+Emoji.m */; };
+		AFB61A311C055A8E00DED864 /* EmotionKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB61A301C055A8E00DED864 /* EmotionKeyboardView.m */; };
+		AFB61A331C055AA300DED864 /* EmotionKeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFB61A321C055AA300DED864 /* EmotionKeyboardView.xib */; };
+		AFB61A361C055EC100DED864 /* EmotionTabbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB61A351C055EC100DED864 /* EmotionTabbarView.m */; };
+		AFB61BFF1C058EDD00DED864 /* default in Resources */ = {isa = PBXBuildFile; fileRef = AFB61BFC1C058EDD00DED864 /* default */; };
+		AFB61C001C058EDD00DED864 /* emoji in Resources */ = {isa = PBXBuildFile; fileRef = AFB61BFD1C058EDD00DED864 /* emoji */; };
+		AFB61C011C058EDD00DED864 /* lxh in Resources */ = {isa = PBXBuildFile; fileRef = AFB61BFE1C058EDD00DED864 /* lxh */; };
+		AFB61C041C05A4F900DED864 /* EmotionListView.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB61C031C05A4F900DED864 /* EmotionListView.m */; };
+		AFB61C081C05A6BD00DED864 /* EmotionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB61C071C05A6BD00DED864 /* EmotionModel.m */; };
+		AFCA97F01C0C0D3300F7625B /* EmotionPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA97EF1C0C0D3300F7625B /* EmotionPopView.m */; };
+		AFCA97F21C0C0D4500F7625B /* EmotionPopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFCA97F11C0C0D4500F7625B /* EmotionPopView.xib */; };
+		AFCA97F51C0C116D00F7625B /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA97F41C0C116D00F7625B /* UIView+Extension.m */; };
+		AFCA97F81C0C180500F7625B /* EmotionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCA97F71C0C180500F7625B /* EmotionButton.m */; };
+		AFD910AF1C02E12700B7CA76 /* CustomToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD910AE1C02E12700B7CA76 /* CustomToolBar.m */; };
+		AFD910B11C02E13900B7CA76 /* CustomToolBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFD910B01C02E13900B7CA76 /* CustomToolBar.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +45,32 @@
 		AF4F22971BFDB6A200FA9170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF4F229D1BFDB7BD00FA9170 /* PlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceholderTextView.h; sourceTree = "<group>"; };
 		AF4F229E1BFDB7BD00FA9170 /* PlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceholderTextView.m; sourceTree = "<group>"; };
+		AF7457701C06E94C00351848 /* EmotionPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionPageView.h; sourceTree = "<group>"; };
+		AF7457711C06E94C00351848 /* EmotionPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmotionPageView.m; sourceTree = "<group>"; };
+		AF7457731C06F60D00351848 /* NSString+Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Emoji.h"; sourceTree = "<group>"; };
+		AF7457741C06F60D00351848 /* NSString+Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Emoji.m"; sourceTree = "<group>"; };
+		AFB61A2F1C055A8E00DED864 /* EmotionKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionKeyboardView.h; sourceTree = "<group>"; };
+		AFB61A301C055A8E00DED864 /* EmotionKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmotionKeyboardView.m; sourceTree = "<group>"; };
+		AFB61A321C055AA300DED864 /* EmotionKeyboardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmotionKeyboardView.xib; sourceTree = "<group>"; };
+		AFB61A341C055EC100DED864 /* EmotionTabbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionTabbarView.h; sourceTree = "<group>"; };
+		AFB61A351C055EC100DED864 /* EmotionTabbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmotionTabbarView.m; sourceTree = "<group>"; };
+		AFB61BFC1C058EDD00DED864 /* default */ = {isa = PBXFileReference; lastKnownFileType = folder; path = default; sourceTree = "<group>"; };
+		AFB61BFD1C058EDD00DED864 /* emoji */ = {isa = PBXFileReference; lastKnownFileType = folder; path = emoji; sourceTree = "<group>"; };
+		AFB61BFE1C058EDD00DED864 /* lxh */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lxh; sourceTree = "<group>"; };
+		AFB61C021C05A4F900DED864 /* EmotionListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionListView.h; sourceTree = "<group>"; };
+		AFB61C031C05A4F900DED864 /* EmotionListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmotionListView.m; sourceTree = "<group>"; };
+		AFB61C061C05A6BD00DED864 /* EmotionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionModel.h; sourceTree = "<group>"; };
+		AFB61C071C05A6BD00DED864 /* EmotionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmotionModel.m; sourceTree = "<group>"; };
+		AFCA97EE1C0C0D3300F7625B /* EmotionPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionPopView.h; sourceTree = "<group>"; };
+		AFCA97EF1C0C0D3300F7625B /* EmotionPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmotionPopView.m; sourceTree = "<group>"; };
+		AFCA97F11C0C0D4500F7625B /* EmotionPopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmotionPopView.xib; sourceTree = "<group>"; };
+		AFCA97F31C0C116D00F7625B /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		AFCA97F41C0C116D00F7625B /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		AFCA97F61C0C180500F7625B /* EmotionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionButton.h; sourceTree = "<group>"; };
+		AFCA97F71C0C180500F7625B /* EmotionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmotionButton.m; sourceTree = "<group>"; };
+		AFD910AD1C02E12700B7CA76 /* CustomToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomToolBar.h; sourceTree = "<group>"; };
+		AFD910AE1C02E12700B7CA76 /* CustomToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomToolBar.m; sourceTree = "<group>"; };
+		AFD910B01C02E13900B7CA76 /* CustomToolBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomToolBar.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +103,12 @@
 		AF4F22851BFDB6A200FA9170 /* PlaceHolderTextView */ = {
 			isa = PBXGroup;
 			children = (
+				AFCA97F31C0C116D00F7625B /* UIView+Extension.h */,
+				AFCA97F41C0C116D00F7625B /* UIView+Extension.m */,
+				AF7457731C06F60D00351848 /* NSString+Emoji.h */,
+				AF7457741C06F60D00351848 /* NSString+Emoji.m */,
+				AFB61C051C05A6A300DED864 /* Model */,
+				AFB61A2E1C055A4E00DED864 /* EmotionView */,
 				AF4F22891BFDB6A200FA9170 /* AppDelegate.h */,
 				AF4F228A1BFDB6A200FA9170 /* AppDelegate.m */,
 				AF4F228C1BFDB6A200FA9170 /* ViewController.h */,
@@ -72,6 +120,9 @@
 				AF4F22861BFDB6A200FA9170 /* Supporting Files */,
 				AF4F229D1BFDB7BD00FA9170 /* PlaceholderTextView.h */,
 				AF4F229E1BFDB7BD00FA9170 /* PlaceholderTextView.m */,
+				AFD910AD1C02E12700B7CA76 /* CustomToolBar.h */,
+				AFD910AE1C02E12700B7CA76 /* CustomToolBar.m */,
+				AFD910B01C02E13900B7CA76 /* CustomToolBar.xib */,
 			);
 			path = PlaceHolderTextView;
 			sourceTree = "<group>";
@@ -79,9 +130,42 @@
 		AF4F22861BFDB6A200FA9170 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AFB61BFC1C058EDD00DED864 /* default */,
+				AFB61BFD1C058EDD00DED864 /* emoji */,
+				AFB61BFE1C058EDD00DED864 /* lxh */,
 				AF4F22871BFDB6A200FA9170 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFB61A2E1C055A4E00DED864 /* EmotionView */ = {
+			isa = PBXGroup;
+			children = (
+				AFB61A2F1C055A8E00DED864 /* EmotionKeyboardView.h */,
+				AFB61A301C055A8E00DED864 /* EmotionKeyboardView.m */,
+				AFB61A321C055AA300DED864 /* EmotionKeyboardView.xib */,
+				AFB61A341C055EC100DED864 /* EmotionTabbarView.h */,
+				AFB61A351C055EC100DED864 /* EmotionTabbarView.m */,
+				AFB61C021C05A4F900DED864 /* EmotionListView.h */,
+				AFB61C031C05A4F900DED864 /* EmotionListView.m */,
+				AF7457701C06E94C00351848 /* EmotionPageView.h */,
+				AF7457711C06E94C00351848 /* EmotionPageView.m */,
+				AFCA97EE1C0C0D3300F7625B /* EmotionPopView.h */,
+				AFCA97EF1C0C0D3300F7625B /* EmotionPopView.m */,
+				AFCA97F11C0C0D4500F7625B /* EmotionPopView.xib */,
+				AFCA97F61C0C180500F7625B /* EmotionButton.h */,
+				AFCA97F71C0C180500F7625B /* EmotionButton.m */,
+			);
+			name = EmotionView;
+			sourceTree = "<group>";
+		};
+		AFB61C051C05A6A300DED864 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AFB61C061C05A6BD00DED864 /* EmotionModel.h */,
+				AFB61C071C05A6BD00DED864 /* EmotionModel.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +225,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFB61BFF1C058EDD00DED864 /* default in Resources */,
+				AFD910B11C02E13900B7CA76 /* CustomToolBar.xib in Resources */,
+				AFCA97F21C0C0D4500F7625B /* EmotionPopView.xib in Resources */,
 				AF4F22961BFDB6A200FA9170 /* LaunchScreen.storyboard in Resources */,
+				AFB61C001C058EDD00DED864 /* emoji in Resources */,
+				AFB61A331C055AA300DED864 /* EmotionKeyboardView.xib in Resources */,
 				AF4F22931BFDB6A200FA9170 /* Assets.xcassets in Resources */,
 				AF4F22911BFDB6A200FA9170 /* Main.storyboard in Resources */,
+				AFB61C011C058EDD00DED864 /* lxh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,8 +246,18 @@
 			files = (
 				AF4F228E1BFDB6A200FA9170 /* ViewController.m in Sources */,
 				AF4F228B1BFDB6A200FA9170 /* AppDelegate.m in Sources */,
+				AFCA97F51C0C116D00F7625B /* UIView+Extension.m in Sources */,
 				AF4F22881BFDB6A200FA9170 /* main.m in Sources */,
+				AF7457751C06F60D00351848 /* NSString+Emoji.m in Sources */,
+				AFCA97F01C0C0D3300F7625B /* EmotionPopView.m in Sources */,
+				AFB61A361C055EC100DED864 /* EmotionTabbarView.m in Sources */,
+				AFCA97F81C0C180500F7625B /* EmotionButton.m in Sources */,
+				AFB61A311C055A8E00DED864 /* EmotionKeyboardView.m in Sources */,
 				AF4F229F1BFDB7BD00FA9170 /* PlaceholderTextView.m in Sources */,
+				AFB61C041C05A4F900DED864 /* EmotionListView.m in Sources */,
+				AFD910AF1C02E12700B7CA76 /* CustomToolBar.m in Sources */,
+				AFB61C081C05A6BD00DED864 /* EmotionModel.m in Sources */,
+				AF7457721C06E94C00351848 /* EmotionPageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +404,7 @@
 				AF4F229C1BFDB6A200FA9170 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
